@@ -4,6 +4,8 @@
 #include "kernel/fs.h"
 #include "kernel/fcntl.h"
 
+
+// 提取路径中的文件名，并将其填充到固定大小的缓冲区中。
 char*
 fmtname(char *path)
 {
